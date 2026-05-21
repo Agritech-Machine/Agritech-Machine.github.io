@@ -1,0 +1,65 @@
+.menu{
+display: flex;  
+gap: 10px;  
+justify-content: space-between;
+
+}
+.menu a{
+    background-color: #0c6322;
+    color:#f2f2f2;
+    padding: 10px 10px 10px 10px;
+     border-radius:15px;
+    
+}
+a{
+   flex: auto; 
+   text-align: center;
+}
+      
+body{
+    text-align: center;
+    
+    background-color: #f2f2f2;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+background-image: url('droness.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: scroll;
+ }
+    h1{
+        color: #0c6322;
+    }
+    h2{
+        color: #1e8537;
+    }
+    h3{
+        color: #3bb359;
+    }
+    @media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        
+    }
+    body{
+        background-image: url("fd-mb.jpg");
+    }
+   
+    }
+
+video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px 50px 500px 500px;
+    border: 5px solid #0c6322;
+    overflow: hidden;
+}
+    img{
+          border: 5px solid #0c6322;
+        border-radius: 0px 0px 50px 50px;
+    }
+    p{
+        font-weight: bolder;
+    
+    }
